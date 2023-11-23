@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GR8 Coffee Shop | Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="fixed">
+        <div class="header">
+            <div>GR8 Coffee Shop</div>
+            <div class="title1">Providing a great experience</div>
+            <div class="title2">Nabatieh, South Lebanon</div>
+        </div>
+
+        <div class="nav">
+            <ul class="list">
+                <li class="listItem" onclick="setActive('beverage')"><a href="#beverage">Beverage</a></li>
+                <div class="line">|</div>
+                <li class="listItem" onclick="setActive('dessert')"><a href="#dessert">Dessert</a></li>
+                <div class="line">|</div>
+                <li class="listItem" onclick="setActive('food')"><a href="#food">Food</a></li>
+                <div class="line">|</div>
+                <li class="listItem" onclick="setActive('shisha')"><a href="#shisha">Shisha</a></li>
+            </ul>
+        </div>
+    </div>
+
+        <main class="main">
+            <section  id="beverage">
+                <div class="img-name"><img class="moreCoffe" src="moreCoffe.jpg">
+                <!-- <div class="forTheTitile">
+                    <p>B</p>
+                    <p>E</p>
+                    <p>V</p>
+                    <p>E</p>
+                    <p>R</p>
+                    <p>A</p>
+                    <p>G</p>
+                    <p>E</p>
+
+
+                </div> -->
+                </div>
+                <div class="beverage">
+                    <ul class="drinksList">
+                        <li class="mar">
+                           <div class="itemsTitle">
+                            <div class="smothies">Smoothies</div>
+                            <div class="itemRow">
+                                <div class="item">Strawberry Smoothie</div>
+                                <div class="price">$ 2.70</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Mango Smoothie</div>
+                                <div class="price">$ 2.70</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Passion Fruit Smoothie</div>
+                                <div class="price">$ 2.70</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Tropical Mix</div>
+                                <div class="price">$ 2.70</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">GR8 Smoothie</div>
+                                <div class="price">$ 3.37</div>
+                            </div>
+                        </div>
+                        </li>
+
+                        <li class="mar">
+                            <div class="itemsTitle">
+                             <div class="smothies">Milkshakes</div>
+                             <div class="itemRow">
+                                 <div class="item">Cookies Milkshake</div>
+                                 <div class="price">$ 3.15</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Lotus Milkshake</div>
+                                 <div class="price">$ 3.37</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Strawberry Milkshake</div>
+                                 <div class="price">$ 3.15</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Chocolate Milkshake</div>
+                                 <div class="price">$ 2.81</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">GR8 Milkshake</div>
+                                 <div class="price">$ 3.37</div>
+                             </div>
+                         </div>
+                         </li>
+
+                         <li class="mar">
+                            <div class="itemsTitle">
+                             <div class="smothies">Frappe</div>
+                             <div class="itemRow">
+                                 <div class="item">Salted Caramel Frappe</div>
+                                 <div class="price">$ 3.37</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Irish Frappe
+                                </div>
+                                 <div class="price">$ 3.15</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Chocolate moch
+                                </div>
+                                 <div class="price">$ 2.92</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">white mocha
+                                </div>
+                                 <div class="price">$ 3.03</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Gr8 Frappe
+                                </div>
+                                 <div class="price">$ 3.60</div>
+                             </div>
+                         </div>
+                         </li>
+
+                         <li class="mar">
+                            <div class="itemsTitle">
+                             <div class="smothies">Cold Beverages</div>
+                             <div class="itemRow">
+                                 <div class="item">Iced Tea Peach </div>
+                                 <div class="price">$ 1.77</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Electric Lemonade</div>
+                                 <div class="price">$ 2.00</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Fresh Lemonade</div>
+                                 <div class="price">$ 1.70</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Mint Mojito</div>
+                                 <div class="price">$ 2.00</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Peach Mojito</div>
+                                 <div class="price">$ 2.40</div>
+                             </div>
+                             <div class="itemRow">
+                                <div class="item">Small Water</div>
+                                <div class="price">$ 0.22</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Energy Drink</div>
+                                <div class="price">$ 0.60</div>
+                            </div>
+
+                            <div class="itemRow">
+                                <div class="item">Perrier</div>
+                                <div class="price">$ 1.00</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Iced Coffee</div>
+                                <div class="price">$ 3.10</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Iced Coffee With Flavour</div>
+                                <div class="price">$ 3.30</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">GR8 Lemonade</div>
+                                <div class="price">$ 2.50</div>
+                            </div>
+                         </div>
+                         </li>
+
+                         <li class="mar">
+                            <div class="itemsTitle">
+                             <div class="smothies">Hot Beverages</div>
+                             <div class="itemRow">
+                                 <div class="item">Coffee </div>
+                                 <div class="price">$ 0.67</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Cacao</div>
+                                 <div class="price">$ 1.20</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Nescafe With Milk</div>
+                                 <div class="price">$ 1.60</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Nescafe With Coffee Mate</div>
+                                 <div class="price">$ 1.30</div>
+                             </div>
+                             <div class="itemRow">
+                                 <div class="item">Cappuccino</div>
+                                 <div class="price">$ 1.30</div>
+                             </div>
+                             <div class="itemRow">
+                                <div class="item">Café Latte</div>
+                                <div class="price">$ 1.50</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Caramel Latte</div>
+                                <div class="price">$ 1.70</div>
+                            </div>
+
+                            <div class="itemRow">
+                                <div class="item">Irish Latte</div>
+                                <div class="price">$ 1.50</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Hot Chocolate</div>
+                                <div class="price">$ 1.20</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Mocha Latte</div>
+                                <div class="price">$ 1.90</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Lipton Tea</div>
+                                <div class="price">$ 0.55</div>
+                            </div>
+                         </div>
+                         </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="dessert"><div class="img-name"><img class="moreCoffe" src="cake.jpg">
+                <!-- <div class="forTheTitile">
+                    <p>D</p>
+                    <p>E</p>
+                    <p>S</p>
+                    <p>S</p>
+                    <p>E</p>
+                    <p>R</p>
+                    <p>T</p>
+                    <p>S</p>
+
+
+                </div> -->
+                </div>
+                <ul class="drinksList">
+                    <li class="mar">
+                       <div class="itemsTitle">
+                        <div class="smothies">Desserts</div>
+                        <div class="itemRow">
+                            <div class="item">Waffle</div>
+                            <div class="price">$ 4.00</div>
+                        </div>
+                        <div class="itemRow">
+                            <div class="item">Waffle With Ice-Cream</div>
+                            <div class="price">$ 4.20</div>
+                        </div>
+                        <div class="itemRow">
+                            <div class="item">Muffins</div>
+                            <div class="price">$ 3.20</div>
+                        </div>
+                        <div class="itemRow">
+                            <div class="item">CheeseCake</div>
+                            <div class="price">$ 3.50</div>
+                        </div>
+                        <div class="itemRow">
+                            <div class="item">Donuts</div>
+                            <div class="price">$ 1.10</div>
+                        </div>
+                    </div>
+                    </li>
+                </ul>
+            </section>
+            <section id="food">  <div class="img-name"><img class="moreCoffe" src="croisont.jpg">
+                <!-- <div class="forTheTitile">
+                    <p>B</p>
+                    <p>E</p>
+                    <p>V</p>
+                    <p>E</p>
+                    <p>R</p>
+                    <p>A</p>
+                    <p>G</p>
+                    <p>E</p>
+
+
+                </div> -->
+                </div>
+                <div class="beverage">
+                    <ul class="drinksList">
+                        <li class="mar">
+                           <div class="itemsTitle">
+                            <div class="smothies">Croissants</div>
+                            <div class="itemRow">
+                                <div class="item">Cheese</div>
+                                <div class="price">$ 1.20</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Zaatar</div>
+                                <div class="price">$ 1.10</div>
+                            </div>
+                            <div class="itemRow">
+                                <div class="item">Chocolate</div>
+                                <div class="price">$ 1.30</div>
+                            </div>
+                           
+                        </li>
+                        </ul>
+</section>
+            <!-- <section id="shisha">shisha</section> -->
+        </main>
+        <div class="feedback">
+            <div class="titleF">Feedback</div>
+            <input type="text" class="message" placeholder="Keep a message here.."/>
+            <button class="btn">Submit</button>
+        </div>
+    </div>
+
+    <script>
+        function setActive(section) {
+            // Remove active class from all list items
+            document.querySelectorAll('.listItem').forEach(item => item.classList.remove('active'));
+
+            // Add active class to the clicked list item
+            document.querySelector(`.listItem a[href="#${section}"]`).parentNode.classList.add('active');
+        }
+    </script>
+</body>
+</html>
+
